@@ -3,6 +3,9 @@
 int main()
 {
 	printf("'stdin' file number is %d\n",fileno(stdin));
-
+	printf("'stdout' file number is %d\n", fileno(stdout));
+	printf("'stderr' file number is %d\n", fileno(stderr));
+	printf("\n");
+	
 	return(0);
 }
