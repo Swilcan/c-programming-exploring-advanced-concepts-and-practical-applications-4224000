@@ -10,6 +10,7 @@ int main()
     setlocale(LC_ALL,"en_US.UTF-8");
 
     wprintf(L"%ls",hello);
+    wprintf(L"/n");
 
     return 0;
 }

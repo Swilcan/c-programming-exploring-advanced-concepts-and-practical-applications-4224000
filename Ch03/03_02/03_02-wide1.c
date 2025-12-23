@@ -12,7 +12,7 @@ int main()
 	/* output each wide character */
 	for(x=0;x<4;x++)
 		putwchar(hello[x]);
-    putwchar('\n');
+		putwchar('\n');
 
-    return 0;
+	return 0;
 }
