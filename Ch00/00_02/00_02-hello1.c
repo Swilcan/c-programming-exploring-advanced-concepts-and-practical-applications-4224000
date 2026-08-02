@@ -7,6 +7,7 @@ int main()
 
 	/* set the locale */
 	setlocale(LC_ALL,"en_US.UTF-8");
+	
 	/* output characters */
 	wprintf(L"Hello, %lc\n",world);
 	wprintf(L"\n\n");
