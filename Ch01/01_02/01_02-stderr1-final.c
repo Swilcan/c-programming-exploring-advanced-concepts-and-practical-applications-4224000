@@ -13,6 +13,7 @@ int main()
 		return 1;
 	}
 	printf("New file created, file number is %d\n",fileno(f));
+	printf("\n");
 	fclose(f);
 
 	return 0;
